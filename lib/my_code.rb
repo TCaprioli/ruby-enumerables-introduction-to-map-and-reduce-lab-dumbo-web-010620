@@ -80,9 +80,6 @@ def reduce_to_any_true(source_array)
   end  
   if true_array.length >= 1
     return true
-=======
-    return true_array.length
->>>>>>> 604461e29cca6191183a48f300734bcf6e9af393
   else
     return false
   end   
