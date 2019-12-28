@@ -77,7 +77,7 @@ def reduce_to_any_true(source_array)
    end 
    counter += 1
   end  
-  if false_array.length == array.length 
+  if false_array.length == source_array.length 
     return false
   else
     return true
