@@ -72,17 +72,13 @@ def reduce_to_any_true(source_array)
   counter = 0 
   true_array = []
   while counter < source_array.length
-<<<<<<< HEAD
    if source_array[counter] == true
-=======
    if source_array[counter] != false && nil
->>>>>>> 604461e29cca6191183a48f300734bcf6e9af393
      true_array << source_array[counter]
    end 
    counter += 1
   end  
   if true_array.length >= 1
-<<<<<<< HEAD
     return true
 =======
     return true_array.length
